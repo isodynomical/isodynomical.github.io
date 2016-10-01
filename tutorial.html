@@ -1,0 +1,129 @@
+<html>
+
+<head>
+    <title>LI-PA Tutorial</title>
+    <link type="text/css" rel='stylesheet' href='All.css' />
+    <link rel="shortcut icon" href="Website/W002-Cube.gif">
+</head>
+
+<body>
+    <div id="header">
+        <div id="subHeader">
+            <div id="headerLeft" onclick="Home()" title="Pixel Art">
+                <img id="pixelLogo" src="Website/W001-LiPixelArtLogo.png" alt="Lujan Ideas - Pixel Art" title="Lujan Ideas - Pixel Art" />
+            </div>
+            <div id="headerRight">
+                <button class="clicky" id="Home" onclick="Home()" title="Home">Home</button>
+                <button class="clicky" id="Gallery" onclick="Gallery()" title="Pixel Gallery">Gallery</button>
+                <button class="clicky" id="Projects" onclick="Projects()" title="My Projects">Projects</button>
+                <button class="clicky" id="Tutorial" onclick="Tutorial()" title="How to make a Pixel Person">Tutorial</button>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div id="bubble">
+        <div id="tutorialMain">
+            <br>
+            <p class="title">How can you make pixel person?</p>
+            <h1 class="tutorialTitle">Independent Steps:</h1>
+            <ul class="text">
+                <li class="one"><a onclick="return toggleMe('para1')">Step 1: Find a reliable Site or Program</a>
+                </li>
+                <li class="two" id="para1" style="display:none;">
+                    <p>To make Pixel Art you first need to find a site or program to make art on it. Below are some sites that I recomend:</p>
+                    <ul>
+                        <li>Piskel</li>
+                        <li>Pixie</li>
+                        <li>Pixel Artor</li>
+                        <li>PIXEL'D app</li>
+                    </ul>
+                    <p>Also you will need to have a color wheel type site open such as,</p>
+                    <ul>
+                        <li>Computer Hope</li>
+                        <li>Color Blender</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="text">
+                <li class="one"><a onclick="return toggleMe('para2')">Step 2: Learn the mechanics of the program</a>
+                </li>
+                <li class="two" id="para2" style="display:none;">
+                    <p>This step is not necessary but is highly reccomended since really knowing and being comfortable with the program will give you an extra edge when "drawing."</p>
+                </li>
+            </ul>
+            <ul class="text">
+                <li class="one"><a onclick="return toggleMe('para3')">Step 3: Decide on dimensons of your art</a>
+                </li>
+                <li class="two" id="para3" style="display:none;">
+                    <p>This can always be changed over time but knowing an idea of how detailed you want your drawing is helpful.</p>
+                </li>
+            </ul>
+            <ul class="text">
+                <li class="one"><a onclick="return toggleMe('para4')">Step 4: Find an Image to base it off of</a>
+                </li>
+                <li class="two" id="para4" style="display:none;">
+                    <p>If you are making a whole new person or a character that already exists, having an image to go off of is helpful. Especially when you need the to know the clothes, objects, and colors you are going to need.</p>
+                </li>
+            </ul>
+            <ul class="text">
+                <li class="one"><a onclick="return toggleMe('para5')">Step 5: Start to Art</a>
+                </li>
+                <li class="two" id="para5" style="display:none;">
+                    <p>With these steps done you can start to make your person</p>
+                </li>
+            </ul>
+            <!--<br>
+            <h1 class="tutorialTitle">Dependent Steps:</h1>
+            <ul class="text">
+                <li class="one"><a onclick="return toggleMe('para6')">Step 1: Colors for a person</a>
+                </li>
+                <li class="two" id="para6" style="display:none;">
+                    <p>The colors you will need for this projects are :</p>
+                    <ul>
+                        <li>Color1</li>
+                        <li>Color2</li>
+                        <li>Color3</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="text">
+                <li class="one"><a onclick="return toggleMe('para7')">Step 2: The Face</a>
+                </li>
+                <li class="two" id="para7" style="display:none;">
+                    <p>Starting with the face helps you find the amount of detail and</p>
+                </li>
+            </ul>-->
+            <br>
+        </div>
+        
+        <div id="footerMain">
+            <div id="socialMedia">
+                <a href="http://www.tumblr.com/share/link?url=LIpixelart.me&amp;title=LI-Pixel Art;hashtags=lipixelart" target="_blank">
+                    <img class="socialButtons" src="Website/Icons/I001.TumblrIcon.png" alt="Tumblr" title="Share on Tumblr" />
+                </a>
+                <a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20site%3A%20LIpixelart.me%20%23lipixelart" target="_blank">
+                    <img class="socialButtons" src="Website/Icons/I002.TwitterIcon.png" alt="Twitter" title="Share on Twitter" />
+                </a>
+                <a href="https://plus.google.com/share?url=LIpixelart.me" target="_blank">
+                    <img class="socialButtons" src="Website/Icons/I003.GooglePlusIcon.png" alt="Google+" title="Share on Google+" />
+                </a>
+                <a href="http://www.facebook.com/sharer.php?u=LIpixelart.me" target="_blank">
+                    <img class="socialButtons" src="Website/Icons/I004.FacebookIcon.png" alt="Facebook" title="Share on Facebook" />
+                </a>
+                <a href="mailto:?Subject=LI Pixel Art&amp;Body=I%20saw%20this%20and%20thought%20you%20might%20like%20it:%20 LIpixelart.me" target="_blank">
+                    <img class="socialButtons" src="Website/Icons/I005.EmailIcon.png" alt="Email" title="Email" />
+                </a>
+            </div>
+            <div id="footer">
+                <div class="subFoot"><a onclick="Contact()">Contact Me</a></div>
+                <div id="copyright"><a id="LIdeas" >Lujan Ideas</a> <Secret onclick="secret()">|</Secret> Pixel Art by Jimmy L</div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="All.js"></script>
+    <script type="text/javascript" src="Fonts/Orthopraxy.js"></script>
+</body>
+
+</html>

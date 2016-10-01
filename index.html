@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <title>LI-PixelArt</title>
+    <link type="text/css" rel='stylesheet' href='All.css' />
+    <link rel="shortcut icon" href="Website/W001-Cube.gif">
+</head>
+
+<body>
+    <div id="header">
+        <div id="subHeader">
+            <div id="headerLeft">
+                <img id="pixelLogo" src="Website/W001-LiPixelArtLogo.png" alt="Lujan Ideas - Pixel Art" title="Lujan Ideas - Pixel Art" onclick="Home()"/>
+            </div>
+            <div id="headerRight">
+                <button class="clicky" id="Home" onclick="Home()" title="Home">Home</button>
+                <button class="clicky" id="Gallery" onclick="Gallery()" title="Pixel Gallery">Gallery</button>
+                <button class="clicky" id="Projects" onclick="Projects()" title="My Projects">Projects</button>
+                <button class="clicky" id="Tutorial" onclick="Tutorial()" title="How to make a Pixel Person">Tutorial</button>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div id="bubble">
+        <div id="leftMain">
+            <p id="define">Pixel Art is the art of making a image into it's most simplest form. For this reason it is most commonly used in video games and other digital media. Pixel art is an art form that provides a challenge for advanced pixel artists yet is easy to pick up for newcomers because of its set boundaries.</p>
+        </div>
+        <div id="topMain">
+            <p id="mainT">I never intended to make art
+                <jl id="mainA">- Walt Disney</jl>
+            </p>
+        </div>
+        <div id="rightMain">
+            <img id="animationGif" src="Animations/A001.BTTFDriving.gif" />
+        </div>
+        
+        <div id="largeImgDiv" onclick="this.style.display='none'">
+                <img id="largeImg" style="height:100%;" />
+            </div>
+        
+        <div id="bottomMain">
+            <p id="newPicsText">What's new:</p>
+            <img class="bottomImages" src="Images2/P158-MaryPoppins.gif" alt="Pixel Mary Poppins" title="Pixel Mary Poppins" onclick="showImage(this.src, 'Images2/P158-MaryPoppins.gif');" />
+            <img class="bottomImages" src="Images2/P109-MickeyMcFly.gif" alt="Pixel Mickey McFly" title="Pixel Mickey McFly" onclick="showImage(this.src, 'Images2/P109-MickeyMcFly.gif');" />
+            <img class="bottomImages" src="Images/P056-PeterVenkman.gif" alt="Pixel Peter Venkman" title="Pixel Peter Venkman" onclick="showImage(this.src, 'Images/P056-PeterVenkman.gif');" />
+            <img class="bottomImages" src="Images/P076-PhilCoulson.gif" alt="Pixel Phil Coulson" title="Pixel Phil Coulson" onclick="showImage(this.src, 'Images/P076-PhilCoulson.gif');" />
+            <img class="bottomImages" src="Images2/P157-ThePunisher.gif" alt="Pixel The Punisher" title="Pixel The Punisher" onclick="showImage(this.src, 'Images2/P157-ThePunisher.gif');" />
+        </div>
+        
+        <div id="footerMain">
+            <div id="socialMedia">
+                <a href="http://www.tumblr.com/share/link?url=LIpixelart.me&amp;title=LI-Pixel Art;hashtags=lipixelart" target="_blank">
+                    <img class="socialButtons" src="Website/Icons/I001.TumblrIcon.png" alt="Tumblr" title="Share on Tumblr" />
+                </a>
+                <a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20site%3A%20LIpixelart.me%20%23lipixelart" target="_blank">
+                    <img class="socialButtons" src="Website/Icons/I002.TwitterIcon.png" alt="Twitter" title="Share on Twitter" />
+                </a>
+                <a href="https://plus.google.com/share?url=LIpixelart.me" target="_blank">
+                    <img class="socialButtons" src="Website/Icons/I003.GooglePlusIcon.png" alt="Google+" title="Share on Google+" />
+                </a>
+                <a href="http://www.facebook.com/sharer.php?u=LIpixelart.me" target="_blank">
+                    <img class="socialButtons" src="Website/Icons/I004.FacebookIcon.png" alt="Facebook" title="Share on Facebook" />
+                </a>
+                <a href="mailto:?Subject=LI Pixel Art&amp;Body=I%20saw%20this%20and%20thought%20you%20might%20like%20it:%20 LIpixelart.me" target="_blank">
+                    <img class="socialButtons" src="Website/Icons/I005.EmailIcon.png" alt="Email" title="Email" />
+                </a>
+            </div>
+            <div id="footer">
+                <div class="subFoot"><a onclick="Contact()">Contact Me</a></div>
+                <div id="copyright"><a id="LIdeas" >Lujan Ideas</a> | Pixel Art by Jimmy L</div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src='All.js'></script>
+</body>
+
+</html>

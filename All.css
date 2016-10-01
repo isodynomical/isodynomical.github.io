@@ -1,0 +1,594 @@
+@font-face{
+    font-family: pixel;
+    src: url(Fonts/Pixel.ttf);
+}
+@font-face{
+    font-family: art;
+    src: url(Fonts/Art.ttf);
+}
+@font-face{
+    font-family: stark;
+    src: url(Fonts/Stark.otf);
+}
+@font-face{
+    font-family: magra;
+    src: url(Fonts/Magra.ttf);
+}
+@font-face{
+    font-family: arvo;
+    src: url(Fonts/Arvo.ttf);
+}
+@font-face{
+    font-family: ben;
+    src: url(Fonts/Ben102.ttf);
+}
+@font-face{
+    font-family: bond;
+    src: url(Fonts/JamesBond.otf);
+}
+@font-face{
+    font-family: peter;
+    src: url(Fonts/PeterPan.ttf);
+}
+@font-face{
+    font-family: stitch;
+    src: url(Fonts/Stitch.ttf);
+}
+@font-face{
+    font-family: pooh;
+    src: url(Fonts/WinnieThePooh.ttf);
+}
+@font-face{
+    font-family: pirate;
+    src: url(Fonts/Pirates.ttf);
+}
+@font-face{
+    font-family: ghost;
+    src: url(Fonts/Ghostbusters.ttf);
+}
+@font-face{
+    font-family: jurassic;
+    src: url(Fonts/JurassicPark.ttf);
+}
+@font-face{
+    font-family: toystory;
+    src: url(Fonts/ToyStory.ttf);
+}
+@font-face{
+    font-family: hiro;
+    src: url(Fonts/BigHero6.ttf);
+}
+body{
+    /*background-image:url(BackgroundRepeat.png);
+    background-repeat:repeat;
+    background-position:0% 0%;
+    background-attachment:fixed;*/
+    background-color:#f0f0f0;
+    font-family:stark;
+}
+a{
+    text-decoration:none;
+    color:inherit;
+}
+c{
+    font-family:arvo;
+    margin-left:.1em;
+}
+y{
+    font-family:pixel;
+}
+#header{
+    margin-top:-.6em;
+    margin-left:-.55em;
+    height:3em;
+    width:100.05%;
+    position:absolute;
+    background-color:#6960EC;
+}
+#subHeader{
+    width:64em;
+    height:3em;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#6960EC;
+    overflow:hidden;
+    position:relative;
+}
+#headerLeft{
+    float:left;
+    width:20em;
+    height:3em;
+    margin-left:1em;
+    margin-right:auto;
+    background-color:#6960EC;
+    position:relative;
+    z-index:1;
+    text-align:center;
+}
+#pixelLogo{
+    width:18em;
+    margin-top:.25em;
+    cursor:pointer;
+}
+#headerRight{
+    width:42em;
+    height:3em;
+    float:left;
+    margin-left:0em;
+    background-color:#6960EC;
+}
+.clicky{
+    text-align:center;
+    margin-top:.3em;
+    font-size:1.4em;
+    background-color:transparent;
+    border:none;
+    color:black;
+    font-family:pixel;
+    cursor:pointer;
+    margin-left:.6em;
+    margin-right:.3em;
+}
+.clicky:hover{
+    opacity:.7;
+}
+#Home{
+}
+#bubble{
+    background-color:transparent;
+    height:auto;
+    width:62em;
+    margin-top:2.75em;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    bottom:1em;
+}
+#leftMain{
+    height:24.72em;
+    /*DMC: 24.72em*/
+    /*MC: 24.6em*/
+    width:20em;
+    background-color:#7cbdeb;
+    float:left;
+    z-index:100;
+    color:black;
+}
+#define{
+    font-size:1.512em;
+    text-align:justify;
+    margin-top:.3em;
+    margin-left:.3em;
+    margin-right:.3em;
+}
+#topMain{
+    height:3em;
+    width:42em;
+    float:right;
+    background-color:#194da6;
+    text-align:center;
+    color:white;
+}
+#mainT{
+    margin-left:.2em;
+    margin-top:.1em;
+    font-size:2.7em;
+    font-family:art;
+}
+#mainA{
+    font-size:.6em;
+    font-family:art;
+}
+#rightMain{
+    height:auto;
+    width:42em;
+    float:right;
+}
+#animationGif{
+    width:100%;
+}
+#bottomMain{
+    height:auto;
+    width:inherit;
+    background-color:#234ed4;
+    float:right;
+    margin-right:0em;
+    margin-top:0;
+}
+#newPicsText{
+    margin-left:.5em;
+    margin-top:.3em;
+    font-family:pixel;
+    font-size:1.4em;
+}
+.bottomImages{
+    width:11.99625em;
+    vertical-align: middle;
+    margin-left:.1em;
+    margin-right:.1em;
+    float:center;
+    cursor:pointer;
+}
+.bottomLongImages{
+    width:11.99625em;
+    vertical-align: middle;
+    margin-left:.1em;
+    margin-right:.1em;
+    float:center;
+    cursor:pointer;
+}
+.bottomTallImages{
+    height:13.71em;
+    vertical-align: middle;
+    margin-left:.1em;
+    margin-right:.1em;
+    float:center;
+    cursor:pointer;
+}
+#footerMain{
+    font-family:magra;
+    color:white;
+    height:auto;
+    width:100%;
+    background-color:#6960EC;
+    float:right;
+    margin-right:0em;
+    margin-top:-.2em;
+}
+#socialMedia{
+    margin-left:auto;
+    margin-right:auto;
+    width:15.9em;
+    margin-top:.5em;
+}
+.socialButtons{
+    width:2em;
+    height:2em;
+    margin-left:.5em;
+    margin-right:.5em;
+}
+.socialButtons:hover{
+    transform:scale(1.4);
+}
+#footer{
+    text-align:center;
+    text-decoration:none;
+}
+.subFoot{
+    color:black;
+    font-size:.7em;
+    display:inline-block;
+    margin-left:.5em;
+    margin-right:.5em;
+}
+.subFoot:hover{
+    color:white;
+    cursor:pointer;
+}
+#copyright{
+    margin-bottom:.5em;
+    font-family:arvo;
+}
+
+#Gallery{
+}
+#galleryMain{
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#234ed4;
+    height:auto;
+}
+.title{
+    margin-left:0em;
+    font-size:3em;
+    font-family:art;
+    margin-top:.2em;
+    text-align:center;
+}
+.galleryImages{
+    width:25em;
+    margin-left:18.6em;
+    cursor:pointer;
+}
+#largeImgDiv{
+    text-align:center;
+    display:none;
+    position:fixed;
+    z-index:100;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(35, 78, 212, 0.5);
+    cursor:pointer;
+}
+.pixelImages{
+    width:24.64%;
+    cursor:pointer;
+    position:relative;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.pixelLongImages{
+    width:49.76%;
+    cursor:pointer;
+    position:relative;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.pixelTallImages{
+    width:24.64%;
+    cursor:pointer;
+    position:relative;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.galleryBox{
+    width:60em;
+    height:4.5em;
+    position:relative;
+    cursor:pointer;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.gallerySubBox{
+    width:52em;
+    height:auto;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+}
+.gallerySpace{
+    width:100%;
+    height:1em;
+}
+.Logos{
+    height:100%;
+}
+#MartyBox{
+    background-color:#07061F;
+}
+#Ben10Box{
+    background-color:#127429;
+    line-height:4em;
+    margin-top:-3.5em;
+}
+#Ben10Text{
+    font-family:ben, stark;
+    font-size:3.5em;
+    color:white;
+}
+#HiroBox{
+    background-color:#c72023;
+    line-height:4.7em;
+    margin-top:-3.5em;
+}
+#HiroText{
+    font-family:hiro, stark;
+    font-size:3.5em;
+    color:white;
+}
+#DisneyBox{
+    background-color:#194da6;
+}
+#DCBox{
+    background-color:White;
+}
+#LandBox{
+    background-color:white;
+}
+#WhoBox{
+    background-color:#113a85;
+}
+#FantasiaBox{
+    background-color:#000080;
+}
+#NemoBox{
+    background-color:#2B65EC;
+}
+#FriendsBox{
+    background-color:black;
+}
+#FutureBox{
+    background-color:#073F5D;
+}
+#GhostBox{
+    background-color:black;
+}
+#GravityBox{
+    background-color:#9c8a46;
+}
+#PotterBox{
+    background-color:black;
+}
+#IndianaBox{
+    background-color:#572e17;
+}
+#BondBox{
+    background-color:White;
+    line-height:4.4em;
+    margin-top:-4.7em;
+}
+#BondText{
+    font-family:bond, stark;
+    font-size:4.7em;
+    color:Black;
+}
+#JurassicBox{
+    background-color:black;
+}
+#StitchBox{
+    background-color:white;
+}
+#LoneBox{
+    background-color:#a0acae;
+}
+#MarvelBox{
+    background-color:#e80202;
+}
+#PeterBox{
+    background-color:#0E154A;
+    line-height:4em;
+    margin-top:-3.5em;
+}
+#PeterText{
+    font-family:peter, stark;
+    font-size:3.5em;
+    color:#EDC60D;
+}
+#PerryBox{
+    background-color:#ffee00;
+}
+#PirateBox{
+    background-color:#b87d2a;
+    line-height:4.9em;
+    margin-top:-5em;
+}
+#PirateText{
+    font-family:pirate, stark;
+    font-size:5em;
+    color:black;
+}
+#SWBox{
+    background-color:Black;
+}
+#ToyBox{
+    background-color:#e00022;
+    line-height:3.8em;
+    margin-top:-3.6em;
+}
+#ToyText{
+    font-family:toystory, stark;
+    font-size:3.6em;
+    color:#ffd900;
+    text-shadow: 5px 5px 0 #004e96,
+    -5px 5px 0 #004e96,
+    5px -5px 0 #004e96,
+    -5px -5px 0 #004e96,
+    0px 5px 0 #004e96,
+    0px -5px 0 #004e96,
+    -5px 0px 0 #004e96,
+    5px 0px 0 #004e96,
+    2px 2px 0 #004e96,
+    -2px 2px 0 #004e96,
+    2px -2px 0 #004e96,
+    -2px -2px 0 #004e96,
+    0px 2px 0 #004e96,
+    0px -2px 0 #004e96,
+    -2px 0px 0 #004e96,
+    2px 0px 0 #004e96,
+    5px 2px 0 #004e96,
+    -5px 2px 0 #004e96,
+    5px -2px 0 #004e96,
+    -5px -2px 0 #004e96,
+    2px 5px 0 #004e96,
+    -2px 5px 0 #004e96,
+    2px -5px 0 #004e96,
+    -2px -5px 0 #004e96;
+
+}
+#TronBox{
+    background-color:Black;
+}
+#WalleBox{
+    background-color:#0b3578;
+}
+#WanderBox{
+    background-color:black;
+}
+#PoohBox{
+    background-color:#fa002a;
+    line-height:3.7em;
+    margin-top:-4em;
+}
+#PoohText{
+    font-family:pooh, stark;
+    font-size:4em;
+    color:#ffc042;
+}
+#OProjectsBox{
+    background-color:#7cbdeb;
+}
+#OPeopleBox{
+    background-color:#194da6;
+}
+
+.text{
+    margin-top:.4em;
+    margin-left:.4em;
+    margin-right:.6em;
+    font-size:1.38em;
+}
+
+ #Tutorial{
+}
+#tutorialMain{
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#194da6;
+    height:auto;
+}
+.tutorialTitle{
+    margin-left:.5em;
+    font-family:pixel;
+    color:white;
+}
+
+.one{
+    list-style-type: square;
+    cursor:pointer;
+}
+.two{
+    font-size:.9em;
+}
+secret{
+    cursor:text;
+}
+
+#Projects{
+}
+#projectsMain{
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#7cbdeb;
+    height:auto;
+    text-align:center;
+}
+.developer{
+    text-decoration:none;
+    color:#DB5844;
+    font-size:inherit;
+}
+#projectImg{
+    width:20%;
+    margin-left:.5em;
+    margin-right:.5em;
+}
+#BT1Main{
+}
+
+#Contact{
+}
+#contactLogo{
+    width:7.5em;
+    margin-bottom:-.2em;
+}
+#contactMain{
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#6960EC;
+    height:auto;
+    text-align:center;
+}
+.contactText{
+    font-size:2.3em;
+    vertical-align:middle;
+}
+.contactIcons{
+    width:1.5em;
+    margin-bottom:-.4em;
+}
