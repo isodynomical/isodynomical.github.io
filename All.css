@@ -31,24 +31,12 @@
     src: url(Fonts/PeterPan.ttf);
 }
 @font-face{
-    font-family: stitch;
-    src: url(Fonts/Stitch.ttf);
-}
-@font-face{
     font-family: pooh;
     src: url(Fonts/WinnieThePooh.ttf);
 }
 @font-face{
     font-family: pirate;
     src: url(Fonts/Pirates.ttf);
-}
-@font-face{
-    font-family: ghost;
-    src: url(Fonts/Ghostbusters.ttf);
-}
-@font-face{
-    font-family: jurassic;
-    src: url(Fonts/JurassicPark.ttf);
 }
 @font-face{
     font-family: toystory;
@@ -145,9 +133,10 @@ y{
     bottom:1em;
 }
 #leftMain{
-    height:24.72em;
-    /*DMC: 24.72em*/
-    /*MC: 24.6em*/
+    height:27.5em;
+    /*DMC:24.72em*/
+    /*MC:24.6em*/
+    /*BB:27.5em*/
     width:20em;
     background-color:#7cbdeb;
     float:left;
@@ -155,7 +144,9 @@ y{
     color:black;
 }
 #define{
-    font-size:1.512em;
+    font-size:1.6em;
+    /*DMC & MC:1.512em*/
+    /*BB:27.5em*/
     text-align:justify;
     margin-top:.3em;
     margin-left:.3em;
@@ -193,7 +184,9 @@ y{
     background-color:#234ed4;
     float:right;
     margin-right:0em;
-    margin-top:0;
+    margin-top:-.3;
+    /*DMC & MC:0*/
+    /*BB:-.3*/
 }
 #newPicsText{
     margin-left:.5em;
