@@ -494,14 +494,7 @@ y{
     background-color:black;
 }
 #PoohBox{
-    background-color:#fa002a;
-    line-height:3.7em;
-    margin-top:-4em;
-}
-#PoohText{
-    font-family:pooh, stark;
-    font-size:4em;
-    color:#ffc042;
+    background-color:white;
 }
 #OProjectsBox{
     background-color:#7cbdeb;
