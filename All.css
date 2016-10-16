@@ -133,7 +133,7 @@ y{
     bottom:1em;
 }
 #leftMain{
-    height:27.5em;
+    height:24.6em;
     /*DMC:24.72em*/
     /*MC:24.6em*/
     /*BB:27.5em*/
@@ -144,7 +144,7 @@ y{
     color:black;
 }
 #define{
-    font-size:1.6em;
+    font-size:1.512em;
     /*DMC & MC:1.512em*/
     /*BB:27.5em*/
     text-align:justify;
