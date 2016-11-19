@@ -31,20 +31,8 @@
     src: url(Fonts/PeterPan.ttf);
 }
 @font-face{
-    font-family: pooh;
-    src: url(Fonts/WinnieThePooh.ttf);
-}
-@font-face{
     font-family: pirate;
     src: url(Fonts/Pirates.ttf);
-}
-@font-face{
-    font-family: toystory;
-    src: url(Fonts/ToyStory.ttf);
-}
-@font-face{
-    font-family: hiro;
-    src: url(Fonts/BigHero6.ttf);
 }
 body{
     /*background-image:url(BackgroundRepeat.png);
@@ -446,39 +434,7 @@ y{
     background-color:Black;
 }
 #ToyBox{
-    background-color:#e00022;
-    line-height:3.8em;
-    margin-top:-3.6em;
-}
-#ToyText{
-    font-family:toystory, stark;
-    font-size:3.6em;
-    color:#ffd900;
-    text-shadow: 5px 5px 0 #004e96,
-    -5px 5px 0 #004e96,
-    5px -5px 0 #004e96,
-    -5px -5px 0 #004e96,
-    0px 5px 0 #004e96,
-    0px -5px 0 #004e96,
-    -5px 0px 0 #004e96,
-    5px 0px 0 #004e96,
-    2px 2px 0 #004e96,
-    -2px 2px 0 #004e96,
-    2px -2px 0 #004e96,
-    -2px -2px 0 #004e96,
-    0px 2px 0 #004e96,
-    0px -2px 0 #004e96,
-    -2px 0px 0 #004e96,
-    2px 0px 0 #004e96,
-    5px 2px 0 #004e96,
-    -5px 2px 0 #004e96,
-    5px -2px 0 #004e96,
-    -5px -2px 0 #004e96,
-    2px 5px 0 #004e96,
-    -2px 5px 0 #004e96,
-    2px -5px 0 #004e96,
-    -2px -5px 0 #004e96;
-
+    background-color:white;
 }
 #TronBox{
     background-color:Black;
