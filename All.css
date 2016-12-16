@@ -3,10 +3,6 @@
     src: url(Fonts/Pixel.ttf);
 }
 @font-face{
-    font-family: art;
-    src: url(Fonts/Art.ttf);
-}
-@font-face{
     font-family: stark;
     src: url(Fonts/Stark.otf);
 }
