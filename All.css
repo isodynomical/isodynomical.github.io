@@ -59,7 +59,7 @@ c{
     margin-left:.1em;
 }
 y{
-    font-family:pixel;
+    font-family:magra;
 }
 #header{
     margin-top:-.6em;
@@ -108,7 +108,6 @@ y{
     background-color:transparent;
     border:none;
     color:black;
-    font-family:pixel;
     cursor:pointer;
     margin-left:.6em;
     margin-right:.3em;
@@ -116,7 +115,8 @@ y{
 .clicky:hover{
     opacity:.7;
 }
-#Home{
+.buttonImg{
+    height:1.5em;
 }
 #bubble{
     background-color:transparent;
@@ -140,7 +140,7 @@ y{
     color:black;
 }
 #define{
-    font-size:1.512em;
+    font-size:1.466em;
     /*DMC & MC:1.512em*/
     /*BB:27.5em*/
     text-align:justify;
@@ -157,14 +157,14 @@ y{
     color:white;
 }
 #mainT{
-    margin-left:.2em;
-    margin-top:.1em;
+    text-align:center;
+    margin-top:-.1em;
     font-size:2.7em;
-    font-family:art;
+    font-family:magra;
 }
 #mainA{
     font-size:.6em;
-    font-family:art;
+    font-family:magra;
 }
 #rightMain{
     height:auto;
@@ -184,11 +184,10 @@ y{
     /*DMC & MC:0*/
     /*BB:-.3*/
 }
-#newPicsText{
+#newPicsImg{
     margin-left:.5em;
-    margin-top:.3em;
-    font-family:pixel;
-    font-size:1.4em;
+    margin-top:0em;
+    height:2em;
 }
 .bottomImages{
     width:11.99625em;
@@ -245,7 +244,7 @@ y{
 }
 .subFoot{
     color:black;
-    font-size:.7em;
+    font-size:1em;
     display:inline-block;
     margin-left:.5em;
     margin-right:.5em;
@@ -270,7 +269,7 @@ y{
 .title{
     margin-left:0em;
     font-size:3em;
-    font-family:art;
+    font-family:arvo;
     margin-top:.2em;
     text-align:center;
 }
@@ -515,44 +514,22 @@ y{
     font-size:1.38em;
 }
 
- #Tutorial{
-}
-#tutorialMain{
-    margin-left:auto;
-    margin-right:auto;
-    background-color:#194da6;
-    height:auto;
-}
-.tutorialTitle{
-    margin-left:.5em;
-    font-family:pixel;
-    color:white;
-}
-
-.one{
-    list-style-type: square;
-    cursor:pointer;
-}
-.two{
-    font-size:.9em;
-}
-secret{
-    cursor:text;
-}
-
 #Projects{
 }
 #projectsMain{
     margin-left:auto;
     margin-right:auto;
-    background-color:#7cbdeb;
+    background-color:#234ed4;
     height:auto;
     text-align:center;
 }
 .developer{
     text-decoration:none;
-    color:#DB5844;
+    color:white;
     font-size:inherit;
+}
+.developer:hover{
+    color:#7cbdeb;
 }
 #projectImg{
     width:20%;
@@ -562,11 +539,49 @@ secret{
 #BT1Main{
 }
 
+ #Tutorial{
+}
+#tutorialMain{
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#234ed4;
+    height:auto;
+}
+#tutorialTitle{
+    margin-left:.5em;
+    margin-bottom:-.3em;
+    font-family:magra;
+    color:white;
+}
+
+.one{
+    list-style-type: square;
+    cursor:pointer;
+    background:white;
+    margin-bottom:.5em;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:1.5em;
+    text-align:center;
+    width:20em;
+    color:#234ed4;
+}
+.one:hover{
+    background:#7cbdeb;
+    color:#194da6;
+}
+.two{
+    font-size:.9em;
+}
+secret{
+    cursor:text;
+}
+
 #Contact{
 }
 #contactLogo{
-    width:7.5em;
-    margin-bottom:-.2em;
+    height:1em;
+    margin-bottom:-.05em;
 }
 #contactMain{
     margin-left:auto;

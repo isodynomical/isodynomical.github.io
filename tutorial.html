@@ -13,10 +13,10 @@
                 <img id="pixelLogo" src="Website/W001-LiPixelArtLogo.png" alt="Lujan Ideas - Pixel Art" title="Lujan Ideas - Pixel Art" />
             </div>
             <div id="headerRight">
-                <button class="clicky" id="Home" onclick="Home()" title="Home">Home</button>
-                <button class="clicky" id="Gallery" onclick="Gallery()" title="Pixel Gallery">Gallery</button>
-                <button class="clicky" id="Projects" onclick="Projects()" title="My Projects">Projects</button>
-                <button class="clicky" id="Tutorial" onclick="Tutorial()" title="How to make a Pixel Person">Tutorial</button>
+                <button class="clicky" onclick="Home()" title="Home"><img class="buttonImg" src="Website/W005-HomeButton.png"/></button>
+                <button class="clicky" onclick="Gallery()" title="Pixel Gallery"><img class="buttonImg" src="Website/W006-GalleryButton.png"/></button>
+                <button class="clicky" onclick="Projects()" title="My Projects"><img class="buttonImg" src="Website/W007-ProjectsButton.png"/></button>
+                <button class="clicky" onclick="Tutorial()" title="How to make a Pixel Person"><img class="buttonImg" src="Website/W008-TutorialButton.png"/></button>
             </div>
         </div>
     </div>
@@ -27,10 +27,12 @@
         <div id="tutorialMain">
             <br>
             <p class="title">How can you make pixel person?</p>
-            <h1 class="tutorialTitle">Independent Steps:</h1>
-            <ul class="text">
-                <li class="one"><a onclick="return toggleMe('para1')">Step 1: Find a reliable Site or Program</a>
-                </li>
+            <h2 id="tutorialTitle">Click on the steps below to begin learning!</h2>
+            <p class="text">(In progress)</p>
+            
+            <div class="text">
+                <div class="one"><a onclick="return toggleMe('para1')">Find a reliable Site or Program</a>
+                </div>
                 <li class="two" id="para1" style="display:none;">
                     <p>To make Pixel Art you first need to find a site or program to make art on it. Below are some sites that I recomend:</p>
                     <ul>
@@ -45,35 +47,27 @@
                         <li>Color Blender</li>
                     </ul>
                 </li>
-            </ul>
-            <ul class="text">
-                <li class="one"><a onclick="return toggleMe('para2')">Step 2: Learn the mechanics of the program</a>
-                </li>
+                <div class="one"><a onclick="return toggleMe('para2')">Learn the mechanics of the program</a>
+                </div>
                 <li class="two" id="para2" style="display:none;">
                     <p>This step is not necessary but is highly reccomended since really knowing and being comfortable with the program will give you an extra edge when "drawing."</p>
                 </li>
-            </ul>
-            <ul class="text">
-                <li class="one"><a onclick="return toggleMe('para3')">Step 3: Decide on dimensons of your art</a>
-                </li>
+                <div class="one"><a onclick="return toggleMe('para3')">Decide on dimensons of your art</a>
+                </div>
                 <li class="two" id="para3" style="display:none;">
                     <p>This can always be changed over time but knowing an idea of how detailed you want your drawing is helpful.</p>
                 </li>
-            </ul>
-            <ul class="text">
-                <li class="one"><a onclick="return toggleMe('para4')">Step 4: Find an Image to base it off of</a>
-                </li>
+                <div class="one"><a onclick="return toggleMe('para4')">Find an Image to base it off of</a>
+                </div>
                 <li class="two" id="para4" style="display:none;">
                     <p>If you are making a whole new person or a character that already exists, having an image to go off of is helpful. Especially when you need the to know the clothes, objects, and colors you are going to need.</p>
                 </li>
-            </ul>
-            <ul class="text">
-                <li class="one"><a onclick="return toggleMe('para5')">Step 5: Start to Art</a>
-                </li>
+                <div class="one"><a onclick="return toggleMe('para5')">Start to Art</a>
+                </div>
                 <li class="two" id="para5" style="display:none;">
                     <p>With these steps done you can start to make your person</p>
                 </li>
-            </ul>
+            </div>
             <!--<br>
             <h1 class="tutorialTitle">Dependent Steps:</h1>
             <ul class="text">

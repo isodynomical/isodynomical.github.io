@@ -32,7 +32,7 @@ var index=0;
     }
 
 function loadBanner() {
-    var srcs = ["Images/P006-Marty2015.gif","Images/P099-WillyWonka.gif","Images/P028-SorcererMickey.gif","Images/P011-IronMan.gif","Images/P070-WallE.gif"];
+    var srcs = ["Images/P006-Marty2015.gif","Images/P090-WillyWonka.gif","Images/P028-SorcererMickey.gif","Images/P011-IronMan.gif","Images/P070-WallE.gif"];
     var c = 0;
     
     imgs = [];

@@ -9,14 +9,14 @@
 <body>
     <div id="header">
         <div id="subHeader">
-            <div id="headerLeft">
-                <img id="pixelLogo" src="Website/W001-LiPixelArtLogo.png" alt="Lujan Ideas - Pixel Art" title="Lujan Ideas - Pixel Art" onclick="Home()"/>
+            <div id="headerLeft" onclick="Home()" title="Pixel Art">
+                <img id="pixelLogo" src="Website/W001-LiPixelArtLogo.png" alt="Lujan Ideas - Pixel Art" title="Lujan Ideas - Pixel Art" />
             </div>
             <div id="headerRight">
-                <button class="clicky" id="Home" onclick="Home()" title="Home">Home</button>
-                <button class="clicky" id="Gallery" onclick="Gallery()" title="Pixel Gallery">Gallery</button>
-                <button class="clicky" id="Projects" onclick="Projects()" title="My Projects">Projects</button>
-                <button class="clicky" id="Tutorial" onclick="Tutorial()" title="How to make a Pixel Person">Tutorial</button>
+                <button class="clicky" onclick="Home()" title="Home"><img class="buttonImg" src="Website/W005-HomeButton.png"/></button>
+                <button class="clicky" onclick="Gallery()" title="Pixel Gallery"><img class="buttonImg" src="Website/W006-GalleryButton.png"/></button>
+                <button class="clicky" onclick="Projects()" title="My Projects"><img class="buttonImg" src="Website/W007-ProjectsButton.png"/></button>
+                <button class="clicky" onclick="Tutorial()" title="How to make a Pixel Person"><img class="buttonImg" src="Website/W008-TutorialButton.png"/></button>
             </div>
         </div>
     </div>
@@ -25,11 +25,18 @@
 
     <div id="bubble">
         <div id="leftMain">
-            <p id="define">Pixel Art is the art of making a image into it's most simplest form. For this reason it is most commonly used in video games and other digital media. Pixel art is an art form that provides a challenge for advanced pixel artists yet is easy to pick up for newcomers because of its set boundaries.</p>
+            <p id="define">Pixel Art is the art of drawing
+                an image using pixels to create identifiable 
+                features. The pixel art you will find on this 
+                site mostly come from pop culture, including 
+                but not limited to Disney, Back to the Future, 
+                Marvel, Star Wars, and DC Comics. You can also 
+                find these pieces on social media which is given 
+                below under Contact Me.</p>
         </div>
         <div id="topMain">
             <p id="mainT">I never intended to make art
-                <jl id="mainA">- Walt Disney</jl>
+                <jl id="mainA">- W. Disney</jl>
             </p>
         </div>
         <div id="rightMain">
@@ -41,12 +48,12 @@
             </div>
         
         <div id="bottomMain">
-            <p id="newPicsText">What's new:</p>
-            <img class="bottomImages" src="Images/P091-DonaldDuck.gif" alt="Pixel Donald Duck" title="Pixel Donald Duck" onclick="showImage(this.src, 'Images/P091-DonaldDuck.gif');" />
-            <img class="bottomImages" src="Images2/P161-GhostRider.gif" alt="Pixel Ghost Rider" title="Pixel Ghost Rider" onclick="showImage(this.src, 'Images2/P161-GhostRider.gif');" />
-            <img class="bottomImages" src="Images2/P110-YenSid.gif" alt="Pixel Yen Sid" title="Pixel Yen Sid" onclick="showImage(this.src, 'Images2/P110-YenSid.gif');" />
-            <img class="bottomImages" src="Images/P087-BlackPanther.gif" alt="Pixel Black Panther" title="Pixel Black Panther" onclick="showImage(this.src, 'Images/P087-BlackPanther.gif');" />
-            <img class="bottomImages" src="Images/P098-WarMachine.gif" alt="Pixel War Machine" title="Pixel War Machine" onclick="showImage(this.src, 'Images/P098-WarMachine.gif');" />
+            <p><img id="newPicsImg" src="Website/W009-WhatsNew.png"/></p>
+            <img class="bottomImages" src="Images2/P158-WinstonZeddemore.gif" alt="Pixel Winston Zeddemore" title="Pixel Winston Zeddemore" onclick="showImage(this.src, 'Images2/P158-WinstonZeddemore.gif');" />
+            <img class="bottomImages" src="Images2/P152-JynErso.gif" alt="Pixel Jyn Erso" title="Pixel Jyn Erso" onclick="showImage(this.src, 'Images2/P152-JynErso.gif');" />
+            <img class="bottomImages" src="Images2/P129-Daredevil.gif" alt="Pixel Daredevil" title="Pixel Daredevil" onclick="showImage(this.src, 'Images2/P129-Daredevil.gif');" />
+            <img class="bottomLongImages" src="Mashups/M009-PizzaPlanetDeLorean.gif" alt="Pixel Pizza Planet DeLorean" title="Pixel Pizza Planet DeLorean" onclick="showImage(this.src, 'Mashups/M009-PizzaPlanetDeLorean.gif');" />
+            <img class="bottomImages" src="Images/P089-DonaldDuck.gif" alt="Pixel Donald Duck" title="Pixel Donald Duck" onclick="showImage(this.src, 'Images/P089-DonaldDuck.gif');" />
         </div>
         
         <div id="footerMain">
@@ -69,7 +76,7 @@
             </div>
             <div id="footer">
                 <div class="subFoot"><a onclick="Contact()">Contact Me</a></div>
-                <div id="copyright"><a id="LIdeas" >Lujan Ideas</a> | Pixel Art by Jimmy L</div>
+                <div id="copyright"><a id="LIdeas" >Lujan Ideas</a> | Pixel Art by Jimmy Lu</div>
             </div>
         </div>
     </div>
