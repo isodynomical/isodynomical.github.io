@@ -462,14 +462,7 @@ y{
     -1px -3px 0 #FAAA55;
 }
 #SeinfeldBox{
-    background-color:#FCD720;
-    line-height:4.15em;
-    margin-top:-4em;
-}
-#SeinfeldText{
-    font-family:seinfeld, stark;
-    font-size:4em;
-    color:#E30922;
+    background-color:white;
 }
 #SWBox{
     background-color:Black;
