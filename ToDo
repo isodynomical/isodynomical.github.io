@@ -1,6 +1,6 @@
 ToDo:
 Add esc as an function to clear the enlarged images
-Put a border around the Tutorial steps. Center the text?
+Make it so when you click on one gallery box others close
 
 noStroke();
 

@@ -219,6 +219,11 @@ y{
     margin-right:0em;
     margin-top:-.2em;
 }
+#topFooter{
+    text-align:center;
+    color: black;
+    margin-top:.5em;
+}
 #socialMedia{
     margin-left:auto;
     margin-right:auto;
@@ -230,6 +235,7 @@ y{
     height:2em;
     margin-left:.5em;
     margin-right:.5em;
+    margin-bottom:.25em;
 }
 .socialButtons:hover{
     transform:scale(1.4);
@@ -238,14 +244,15 @@ y{
     text-align:center;
     text-decoration:none;
 }
-.subFoot{
+#subFoot{
     color:black;
     font-size:1em;
     display:inline-block;
     margin-left:.5em;
     margin-right:.5em;
+    margin-bottom:.25em;
 }
-.subFoot:hover{
+#subFoot:hover{
     color:white;
     cursor:pointer;
 }
@@ -350,6 +357,9 @@ y{
 }
 #LandBox{
     background-color:white;
+}
+#PrincessBox{
+    background-color:#cf4a9a;
 }
 #WhoBox{
     background-color:#113a85;
@@ -482,10 +492,13 @@ y{
 #PoohBox{
     background-color:white;
 }
-#OProjectsBox{
-    background-color:#7cbdeb;
+#IPeopleBox{
+    background-color:#6960EC;
 }
 #OPeopleBox{
+    background-color:#7cbdeb;
+}
+#OProjectsBox{
     background-color:#194da6;
 }
 
