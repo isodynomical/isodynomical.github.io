@@ -415,13 +415,6 @@ y{
 }
 #PeterBox{
     background-color:#0E154A;
-    line-height:4em;
-    margin-top:-3.5em;
-}
-#PeterText{
-    font-family:peter, stark;
-    font-size:3.5em;
-    color:#EDC60D;
 }
 #PerryBox{
     background-color:#ffee00;
@@ -495,7 +488,7 @@ y{
 #IPeopleBox{
     background-color:#6960EC;
 }
-#OPeopleBox{
+#OCharactersBox{
     background-color:#7cbdeb;
 }
 #OProjectsBox{
