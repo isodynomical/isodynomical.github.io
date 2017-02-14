@@ -38,6 +38,10 @@
     font-family: seinfeld;
     src: url(Fonts/Seinfeld.ttf);
 }
+@font-face{
+    font-family: disney;
+    src: url(Fonts/Waltograph.otf);
+}
 body{
     /*background-image:url(BackgroundRepeat.png);
     background-repeat:repeat;
@@ -351,6 +355,16 @@ y{
 }
 #DisneyBox{
     background-color:#194da6;
+}
+#PrincessBox{
+    background-color:#b3448e;
+    line-height:3.2em;
+    margin-top:-4em;
+}
+#PrincessText{
+    font-family:disney, stark;
+    font-size:4em;
+    color:white;
 }
 #DCBox{
     background-color:White;
