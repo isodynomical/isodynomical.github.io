@@ -337,6 +337,15 @@ y{
     margin-left:auto;
     margin-right:auto;
 }
+.subGalleryBox{
+    width:52em;
+    height:4.5em;
+    position:relative;
+    cursor:pointer;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
 .gallerySpace{
     width:100%;
     height:1em;
@@ -416,6 +425,18 @@ y{
 }
 #MarvelBox{
     background-color:#e80202;
+}
+#AvengerBox{
+    background-color:#0e3c45;
+}
+#GuardianBox{
+    background-color:#040417;
+}
+#XMenBox{
+    background-color:black;
+}
+#DefenderBox{
+    background-color:#3f3f40;
 }
 #IncBox{
     background-color:white;
