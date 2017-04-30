@@ -67,14 +67,14 @@ y{
     height:3em;
     width:100.05%;
     position:absolute;
-    background-color:#6960EC;
+    background-color:#234ed4;
 }
 #subHeader{
     width:64em;
     height:3em;
     margin-left:auto;
     margin-right:auto;
-    background-color:#6960EC;
+    background-color:transparent;
     overflow:hidden;
     position:relative;
 }
@@ -84,14 +84,14 @@ y{
     height:3em;
     margin-left:1em;
     margin-right:auto;
-    background-color:#6960EC;
+    background-color:transparent;
     position:relative;
     z-index:1;
     text-align:center;
 }
 #pixelLogo{
-    width:18em;
-    margin-top:.25em;
+    width:20em;
+    margin-top:.28em;
     cursor:pointer;
 }
 #headerRight{
@@ -99,7 +99,7 @@ y{
     height:3em;
     float:left;
     margin-left:0em;
-    background-color:#6960EC;
+    background-color:transparent;
 }
 .clicky{
     text-align:center;
@@ -152,9 +152,9 @@ y{
     height:3em;
     width:42em;
     float:right;
-    background-color:#194da6;
+    background-color:#234ed4;
     text-align:center;
-    color:white;
+    color:black;
 }
 #mainT{
     text-align:center;
@@ -218,14 +218,14 @@ y{
     color:white;
     height:auto;
     width:100%;
-    background-color:#6960EC;
+    background-color:#7cbdeb;
     float:right;
     margin-right:0em;
     margin-top:-.2em;
 }
 #topFooter{
     text-align:center;
-    color: black;
+    color:black;
     margin-top:.5em;
 }
 #socialMedia{
@@ -257,12 +257,14 @@ y{
     margin-bottom:.25em;
 }
 #subFoot:hover{
-    color:white;
+    color:#234ed4;
     cursor:pointer;
 }
 #copyright{
     margin-bottom:.5em;
     font-family:arvo;
+    color:#234ed4;
+    font-weight:bold;
 }
 
 #Gallery{
@@ -595,7 +597,7 @@ secret{
 #contactMain{
     margin-left:auto;
     margin-right:auto;
-    background-color:#6960EC;
+    background-color:#234ed4;
     height:auto;
     text-align:center;
 }
