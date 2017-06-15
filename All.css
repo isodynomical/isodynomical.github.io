@@ -197,14 +197,6 @@ y{
     float:center;
     cursor:pointer;
 }
-.bottomLongImages{
-    width:11.99625em;
-    vertical-align: middle;
-    margin-left:.1em;
-    margin-right:.1em;
-    float:center;
-    cursor:pointer;
-}
 .bottomTallImages{
     height:13.71em;
     vertical-align: middle;
@@ -363,6 +355,9 @@ y{
 }
 #HiroBox{
     background-color:#c72023;
+}
+#CarsBox{
+    background-color:#ba0003;
 }
 #DisneyBox{
     background-color:#194da6;
