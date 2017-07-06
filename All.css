@@ -27,18 +27,6 @@
     src: url(Fonts/PeterPan.ttf);
 }
 @font-face{
-    font-family: pirate;
-    src: url(Fonts/Pirates.ttf);
-}
-@font-face{
-    font-family: scooby;
-    src: url(Fonts/ScoobyDoo.ttf);
-}
-@font-face{
-    font-family: seinfeld;
-    src: url(Fonts/Seinfeld.ttf);
-}
-@font-face{
     font-family: disney;
     src: url(Fonts/Waltograph.otf);
 }
@@ -449,10 +437,8 @@ y{
 }
 #ScoobyBox{
     background-color:white;
-    line-height:5.1em;
-    margin-top:-4em;
 }
-#ScoobyText{
+/*#ScoobyText{
     font-family:scooby, stark;
     font-size:4em;
     color:#6d2b8f;
@@ -481,7 +467,7 @@ y{
     -1px 3px 0 #FAAA55,
     1px -3px 0 #FAAA55,
     -1px -3px 0 #FAAA55;
-}
+}*/
 #SeinfeldBox{
     background-color:white;
 }
