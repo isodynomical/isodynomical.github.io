@@ -341,35 +341,59 @@ y{
 #Ben10Box{
     background-color:#127429;
 }
-#HiroBox{
-    background-color:#c72023;
-}
-#CarsBox{
-    background-color:#ba0003;
-}
 #DisneyBox{
     background-color:#194da6;
 }
-#PrincessBox{
-    background-color:#b3448e;
+#HiroBox{
+    background-color:#c72023;
 }
-#DCBox{
-    background-color:White;
-}
-#LandBox{
+#DChannelBox{
     background-color:white;
+}
+#GravityBox{
+    background-color:#9c8a46;
+}
+#PerryBox{
+    background-color:#ffee00;
+}
+#WanderBox{
+    background-color:black;
 }
 #PrincessBox{
     background-color:#cf4a9a;
 }
-#WhoBox{
-    background-color:#113a85;
+#LandBox{
+    background-color:white;
 }
 #FantasiaBox{
     background-color:#000080;
 }
-#NemoBox{
-    background-color:#2B65EC;
+#StitchBox{
+    background-color:white;
+}
+#LoneBox{
+    background-color:#a0acae;
+}
+#MickeyBox{
+    background-color:white;
+}
+#PeterBox{
+    background-color:#0E154A;
+}
+#PirateBox{
+    background-color:#b87d2a;
+}
+#TronBox{
+    background-color:Black;
+}
+#PoohBox{
+    background-color:white;
+}
+#DCBox{
+    background-color:White;
+}
+#WhoBox{
+    background-color:#113a85;
 }
 #FriendsBox{
     background-color:black;
@@ -380,33 +404,14 @@ y{
 #GhostBox{
     background-color:black;
 }
-#GravityBox{
-    background-color:#9c8a46;
-}
 #PotterBox{
     background-color:black;
 }
 #IndianaBox{
     background-color:#572e17;
 }
-#BondBox{
-    background-color:White;
-    line-height:4.4em;
-    margin-top:-4.7em;
-}
-#BondText{
-    font-family:bond, stark;
-    font-size:4.7em;
-    color:Black;
-}
 #JurassicBox{
     background-color:black;
-}
-#StitchBox{
-    background-color:white;
-}
-#LoneBox{
-    background-color:#a0acae;
 }
 #MarvelBox{
     background-color:#e80202;
@@ -423,17 +428,23 @@ y{
 #DefenderBox{
     background-color:#3f3f40;
 }
+#PixarBox{
+    background-color:9bbede;
+}
+#CarsBox{
+    background-color:#ba0003;
+}
+#NemoBox{
+    background-color:#2B65EC;
+}
 #IncBox{
     background-color:white;
 }
-#PeterBox{
-    background-color:#0E154A;
+#ToyBox{
+    background-color:White;
 }
-#PerryBox{
-    background-color:#ffee00;
-}
-#PirateBox{
-    background-color:#b87d2a;
+#WalleBox{
+    background-color:#0b3578;
 }
 #ScoobyBox{
     background-color:white;
@@ -473,21 +484,6 @@ y{
 }
 #SWBox{
     background-color:Black;
-}
-#ToyBox{
-    background-color:White;
-}
-#TronBox{
-    background-color:Black;
-}
-#WalleBox{
-    background-color:#0b3578;
-}
-#WanderBox{
-    background-color:black;
-}
-#PoohBox{
-    background-color:white;
 }
 #IPeopleBox{
     background-color:#6960EC;
