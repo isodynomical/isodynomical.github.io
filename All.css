@@ -387,13 +387,13 @@ y{
     background-color:#b87d2a;
 }
 #TronBox{
-    background-color:Black;
+    background-color:black;
 }
 #PoohBox{
     background-color:white;
 }
 #DCBox{
-    background-color:White;
+    background-color:white;
 }
 #WhoBox{
     background-color:#113a85;
@@ -437,6 +437,9 @@ y{
 #CarsBox{
     background-color:#ba0003;
 }
+#CocoBox{
+    background-color:black;
+}
 #NemoBox{
     background-color:#2B65EC;
 }
@@ -444,7 +447,7 @@ y{
     background-color:white;
 }
 #ToyBox{
-    background-color:White;
+    background-color:white;
 }
 #WalleBox{
     background-color:#0b3578;
@@ -485,8 +488,9 @@ y{
 #SeinfeldBox{
     background-color:white;
 }
+/*fcd720*/
 #SWBox{
-    background-color:Black;
+    background-color:black;
 }
 #IPeopleBox{
     background-color:#6960EC;

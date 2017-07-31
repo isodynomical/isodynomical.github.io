@@ -1,4 +1,3 @@
-
 //All
 
 function Home() {
@@ -46,7 +45,7 @@ function loadBanner() {
     loaded = function() {
         c++;
         if(c === srcs.length){
-            window.onload = function () {setInterval(changeBanner, 3000)};
+            window.onload = function () {setInterval(changeBanner, 2000)};
             changeBanner();
         }
     };
