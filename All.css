@@ -14,22 +14,6 @@
     font-family: arvo;
     src: url(Fonts/Arvo.ttf);
 }
-@font-face{
-    font-family: ben;
-    src: url(Fonts/Ben102.ttf);
-}
-@font-face{
-    font-family: bond;
-    src: url(Fonts/JamesBond.otf);
-}
-@font-face{
-    font-family: peter;
-    src: url(Fonts/PeterPan.ttf);
-}
-@font-face{
-    font-family: disney;
-    src: url(Fonts/Waltograph.otf);
-}
 body{
     /*background-image:url(BackgroundRepeat.png);
     background-repeat:repeat;
@@ -338,8 +322,14 @@ y{
 #MartyBox{
     background-color:#07061F;
 }
-#Ben10Box{
+#CNBox{
+    background-color:#00aceb;
+}
+#BenBox{
     background-color:#127429;
+}
+#ScoobyBox{
+    background-color:white;
 }
 #DisneyBox{
     background-color:#194da6;
@@ -452,8 +442,24 @@ y{
 #WalleBox{
     background-color:#0b3578;
 }
-#ScoobyBox{
+#SeinfeldBox{
     background-color:white;
+}
+/*fcd720*/
+#SWBox{
+    background-color:black;
+}
+#IPeopleBox{
+    background-color:#6960EC;
+}
+#HeadBox{
+    background-color:#6960EC;
+}
+#OCharactersBox{
+    background-color:#7cbdeb;
+}
+#OProjectsBox{
+    background-color:#194da6;
 }
 /*#ScoobyText{
     font-family:scooby, stark;
@@ -485,22 +491,6 @@ y{
     1px -3px 0 #FAAA55,
     -1px -3px 0 #FAAA55;
 }*/
-#SeinfeldBox{
-    background-color:white;
-}
-/*fcd720*/
-#SWBox{
-    background-color:black;
-}
-#IPeopleBox{
-    background-color:#6960EC;
-}
-#OCharactersBox{
-    background-color:#7cbdeb;
-}
-#OProjectsBox{
-    background-color:#194da6;
-}
 
 .text{
     margin-top:.4em;
