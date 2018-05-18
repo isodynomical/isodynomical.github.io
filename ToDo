@@ -2,6 +2,19 @@ ToDo:
 Add esc as an function to clear the enlarged images
 Make it so when you click on one gallery box others close
 
+For Update:
+git add -A
+git commit -m "change message (be specific)"
+git push
+
+For New:
+git init
+git add -A
+git commit -m "first commit"
+=> Copy/Paste line from github (git remote add origin...)
+git checkout -b gh-pages  // If hosting a website
+git push -u origin gh-pages // If hosting.  If not, gh-pages = master
+
 noStroke();
 
 // position of the car
