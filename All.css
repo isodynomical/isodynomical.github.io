@@ -1,8 +1,4 @@
 @font-face{
-    font-family: pixel;
-    src: url(Fonts/Pixel.ttf);
-}
-@font-face{
     font-family: stark;
     src: url(Fonts/Stark.otf);
 }
@@ -152,9 +148,9 @@ y{
     background-color:#234ed4;
     float:right;
     margin-right:0em;
-    margin-top:-.3;
+    margin-top:0em;
     /*DMC & MC:0*/
-    /*BB:-.3*/
+    /*BB:-.3em*/
 }
 #newPicsImg{
     margin-left:.5em;
@@ -195,14 +191,16 @@ y{
 #socialMedia{
     margin-left:auto;
     margin-right:auto;
-    width:15.9em;
+    width:23em;
+    height:2.5em;
     margin-top:.5em;
+    margin-bottom:.5em;
 }
 .socialButtons{
-    width:2em;
-    height:2em;
-    margin-left:.5em;
-    margin-right:.5em;
+    width:2.5em;
+    height:2.5em;
+    margin-left:.3em;
+    margin-right:.3em;
     margin-bottom:.25em;
 }
 .socialButtons:hover{
@@ -211,7 +209,9 @@ y{
 #footer{
     text-align:center;
     text-decoration:none;
+    margin-bottom:.5em;
 }
+// NIU
 #subFoot{
     color:black;
     font-size:1em;
@@ -224,6 +224,7 @@ y{
     color:#234ed4;
     cursor:pointer;
 }
+// NIU
 #copyright{
     margin-bottom:.5em;
     font-family:arvo;
@@ -558,7 +559,7 @@ y{
 .two{
     font-size:.9em;
 }
-secret{
+thetaP{
     cursor:text;
 }
 
@@ -586,4 +587,11 @@ secret{
 .contactIcons{
     width:1.5em;
     margin-bottom:-.4em;
+}
+#sMessage1{
+    font-size:1.2em;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    width:30em;
 }
