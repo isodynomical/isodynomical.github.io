@@ -404,6 +404,10 @@ y{
 #IndianaBox{
     background-color:#572e17;
 }
+#ITBox{
+    background-color:#000000;
+    cursor: not-allowed;
+}
 #JurassicBox{
     background-color:black;
 }
@@ -421,6 +425,9 @@ y{
 }
 #DefenderBox{
     background-color:#3f3f40;
+}
+#OfficeBox{
+    background-color:#ffffff;
 }
 #PixarBox{
     background-color:#9bbede;
