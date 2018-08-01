@@ -320,6 +320,15 @@ y{
 .Logos{
     height:100%;
 }
+.spacerBox{
+    width:52em;
+    height:1.125em;
+    position:relative;
+    cursor:pointer;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
 #MartyBox{
     background-color:#07061F;
 }
@@ -330,13 +339,16 @@ y{
     background-color:#127429;
 }
 #ScoobyBox{
-    background-color:white;
+    background-color:#ffffff;
+}
+#CNSpace{
+    background-color:#00aceb;
 }
 #DisneyBox{
     background-color:#194da6;
 }
 #AliceBox{
-    background-color:white;
+    background-color:#ffffff;
 }
 #HiroBox{
     background-color:#c72023;
@@ -357,10 +369,10 @@ y{
     background-color:#cf4a9a;
 }
 #LandBox{
-    background-color:white;
+    background-color:#ffffff;
 }
 #FantasiaBox{
-    background-color:#000080;
+    background-color:#382e73;
 }
 #StitchBox{
     background-color:white;
@@ -368,8 +380,11 @@ y{
 #LoneBox{
     background-color:#a0acae;
 }
+#MaryBox{
+    background-color:#192685;
+}
 #MickeyBox{
-    background-color:white;
+    background-color:#ffffff;
 }
 #PeterBox{
     background-color:#0E154A;
@@ -382,6 +397,9 @@ y{
 }
 #PoohBox{
     background-color:white;
+}
+#DisneySpace{
+    background-color:#194da6;
 }
 #DCBox{
     background-color:white;
@@ -450,6 +468,9 @@ y{
 #WalleBox{
     background-color:#0b3578;
 }
+#PixarSpace{
+    background-color:#9bbede;
+}
 #SeinfeldBox{
     background-color:white;
 }
@@ -461,6 +482,9 @@ y{
     background-color:#6960EC;
 }
 #HeadBox{
+    background-color:#d4a923;
+}
+#IPSpace{
     background-color:#6960EC;
 }
 #OCharactersBox{
