@@ -432,8 +432,32 @@ y{
 #MarvelBox{
     background-color:#e80202;
 }
+#SHIELDBox{
+    background-color:#121425;
+}
+#AntBox{
+    background-color:#000000;
+}
 #AvengerBox{
     background-color:#0e3c45;
+}
+#AvengerSpace{
+    background-color:#0e3c45;
+}
+#CaptainBox{
+    background-color:#122552;
+}
+#IronBox{
+    background-color:#b32023;
+}
+#SpiderBox{
+    background-color:#06192b;
+}
+#ThorBox{
+    background-color:#000000;
+}
+#DefenderBox{
+    background-color:#3f3f40;
 }
 #GuardianBox{
     background-color:#040417;
@@ -441,8 +465,8 @@ y{
 #XMenBox{
     background-color:black;
 }
-#DefenderBox{
-    background-color:#3f3f40;
+#MarvelSpace{
+    background-color:#e80202;
 }
 #OfficeBox{
     background-color:#ffffff;
@@ -455,6 +479,9 @@ y{
 }
 #CocoBox{
     background-color:black;
+}
+#IncredBox{
+    background-color:#991900;
 }
 #NemoBox{
     background-color:#2B65EC;
