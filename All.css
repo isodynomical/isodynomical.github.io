@@ -143,12 +143,10 @@ y{
     width:100%;
 }
 #bottomMain{
-    height:auto;
+    height:18em;
     width:inherit;
     background-color:#234ed4;
     float:right;
-    margin-right:0em;
-    margin-top:0em;
     /*DMC & MC:0*/
     /*BB:-.3em*/
 }
