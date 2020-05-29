@@ -1,0 +1,241 @@
+@font-face {
+    font-family: LIPA;
+    src: url(Fonts/LIPixelArt.ttf);
+}
+body {
+    margin-top:0em;
+    margin-left:0em;
+    height:100%;
+    width:100%;
+    position:absolute;
+    font-size: 1rem;
+    font-family:LIPA;
+    /*background-color:#f0f0f0;*/
+}
+a {
+    text-decoration:none;
+    color:inherit;
+}
+#header {
+    z-index:1;
+    height:4em;
+    width:100%;
+    position:fixed;
+    background-color:#001014;
+}
+:root {
+    --thlWid:65%;
+    --hlWid:10em;
+    --bubDist:calc(var(--hlWid) + 1em);
+}
+#topHeadLeft {
+    margin-left:var(--hlWid);
+    height:100%;
+    width:22em;
+    position:relative;
+    float:left;
+}
+.socialButtons {
+    height:85%;
+    position:relative;
+    top:50%;
+    transform:translateY(-50%);
+}
+.topLink {
+    cursor:pointer;
+}
+.topLink:hover {
+    opacity:0;
+}
+.botLink {
+    opacity:0;
+    cursor:pointer;
+}
+.botLink:hover {
+    opacity:1;
+}
+.Twi {
+    margin-left:1em;
+    position:absolute;
+    transition: opacity .4s ease-in-out;
+}
+.Ins {
+    margin-left:5em;
+    position:absolute;
+    transition: opacity .4s ease-in-out;
+}
+.Tum {
+    margin-left:9em;
+    position:absolute;
+    transition: opacity .4s ease-in-out;
+}
+.Fac {
+    margin-left:13em;
+    position:absolute;
+    transition: opacity .4s ease-in-out;
+}
+.Ema {
+    margin-left:17em;
+    position:absolute;
+    transition: opacity .4s ease-in-out;
+}
+#topHeadRight {
+    margin-right:1em;
+    height:100%;
+    width:auto top:0;
+    position:relative;
+    float:right;
+}
+#Jimmy {
+    height:2.75em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#headerLeft {
+    z-index:1;
+    margin-left:0em;
+    height:100%;
+    width:var(--hlWid);
+    position:fixed;
+    background-color:#001014;
+    /*background-image:linear-gradient(#001014, #234ed4, #6ca641);*/
+}
+#LIPALogo {
+    width:100%;
+    cursor:pointer;
+    margin-bottom:.5em;
+}
+.clicky {
+    margin-left:.2em;
+    font-size:2.5em;
+    color:#978734;
+    cursor:pointer;
+    -webkit-transition: color .5s ease;
+}
+.clicky:hover {
+    color:#234ed4;
+    -webkit-transition: color .5s ease;
+}
+#lIdeas {
+    margin-left:.2em;
+    bottom:.75em;
+    position:absolute;
+    text-align:center;
+    font-size:.7em;
+    color:white;
+}
+#bubble {
+    margin-top:5em;
+    margin-left:var(--bubDist);
+    margin-right:1em;
+    padding-top:1em;
+    padding-bottom:2em;
+    width:auto;
+    overflow:hidden;
+    position:relative;
+    color:#001014;
+    background-color:orange;
+}
+p {
+    margin:0;
+    padding:0;
+}
+.modal {
+    z-index:2;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    position:fixed;
+    overflow:auto;
+    display:none;
+    background-color:rgba(35, 78, 212, 0.5);
+}
+.capDiv {
+    height:2.65em;
+    text-align:center;
+    font-size:1.5em;
+    color:white;
+    background-color:#001014;
+}
+#alt {
+    position:relative;
+    top:50%;
+    transform:translateY(-50%);
+}
+#close {
+    z-index:1;
+    margin-top:.1em;
+    width:1.25em;
+    height:1.25em;
+    position:absolute;
+    float:right;
+    right:0;
+    transition:.5s ease;
+    text-align:center;
+    font-size:3em;
+    color:#978734;
+    background:234ed4;
+}
+#close:hover, #close:focus {
+    color:#234ed4;
+    text-decoration:none;
+    cursor:pointer;
+}
+.galStuff {
+}
+.galPic {
+    z-index:1;
+    margin-top:.75em;
+    margin-left:auto;
+    margin-right:auto;
+    height:85%;
+    display:block;
+    display:none;
+    cursor:pointer;
+}
+.prev, .next {
+    width:1em;
+    top:50%;
+    padding-top:.27em;
+    padding-bottom:.13em;
+    position:absolute;
+    text-align:center;
+    font-size:3em;
+    color:#978734;
+    cursor:pointer;
+    transition:.5s ease;
+    border-radius:0 3px 3px 0;
+    background-color:rgba(0, 16, 20, .85);
+}
+.next {
+    right:0;
+    border-radius:3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    color:#234ed4;
+}
+
+/*End universal*/
+
+/*Start index*/
+ #intro {
+    margin-left:.5em;
+    margin-right:.5em;
+    margin-bottom:.5em;
+    font-size:2em;
+}
+#proud {
+    width:100%;
+    position:relative;
+    overflow:hidden;
+    font-size:1em;
+}
+.squPix {
+    margin:.4em;
+    height:15em;
+    float:left;
+    position:relative;
+    cursor:pointer;
+}

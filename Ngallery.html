@@ -1,0 +1,112 @@
+<html>
+
+<head>
+    <title>LI-PixelArt</title>
+    <link type="text/css" rel='stylesheet' href='index.css' />
+    <link type="text/css" rel='stylesheet' href='gallery.css' />
+    <link rel="shortcut icon" href="Website/W02-LIPAIcon.png">
+</head>
+
+<body>
+    <div id="header">
+        <div id="topHeadLeft">
+            <div id="bLink">
+                <a href="https://twitter.com/isodynomical" target="_blank">
+                    <img class="socialButtons topLink Twi" src="Website/Icons/I008.TwitterIconDark.png" alt="Twitter" title="Tweet @ me" />
+                </a>
+                <a href="https://www.instagram.com/lipixelart/" target="_blank">
+                    <img class="socialButtons topLink Ins" src="Website/Icons/I009.InstagramIconDark.png" alt="Instagram" title="Check out my Instagram" />
+                </a>
+                <a href="http://lipixelart.tumblr.com/" target="_blank">
+                    <img class="socialButtons topLink Tum" src="Website/Icons/I010.TumblrIconDark.png" alt="Tumblr" title="Check out my Tumblr" />
+                </a>
+                <a href="https://www.facebook.com/lipixelart" target="_blank">
+                    <img class="socialButtons topLink Fac" src="Website/Icons/I011.FacebookIconDark.png" alt="Facebook" title="Check out my Facebook page" />
+                </a>
+                <a href="https://goo.gl/forms/5kE89Zf178ffxEjS2" target="_blank">
+                    <img class="socialButtons topLink Ema" src="Website/Icons/I012.EmailIconDark.png" alt="Email" title="Email Me" />
+                </a>
+            </div>
+            <div id="tLink">
+                <a href="https://twitter.com/isodynomical" target="_blank">
+                    <img class="socialButtons botLink Twi" src="Website/Icons/I002.TwitterIcon.png" alt="Twitter" title="Tweet @ me" />
+                </a>
+                <a href="https://www.instagram.com/lipixelart/" target="_blank">
+                    <img class="socialButtons botLink Ins" src="Website/Icons/I006.InstagramIcon.png" alt="Instagram" title="Check out my Instagram" />
+                </a>
+                <a href="http://lipixelart.tumblr.com/" target="_blank">
+                    <img class="socialButtons botLink Tum" src="Website/Icons/I001.TumblrIcon.png" alt="Tumblr" title="Check out my Tumblr" />
+                </a>
+                <a href="https://www.facebook.com/lipixelart" target="_blank">
+                    <img class="socialButtons botLink Fac" src="Website/Icons/I004.FacebookIcon.png" alt="Facebook" title="Check out my Facebook page" />
+                </a>
+                <a href="https://goo.gl/forms/5kE89Zf178ffxEjS2" target="_blank">
+                    <img class="socialButtons botLink Ema" src="Website/Icons/I005.EmailIcon.png" alt="Email" title="Email Me" />
+                </a>
+            </div>
+        </div>
+        <div id="topHeadRight">
+            <img id="Jimmy" src="Website/W03-JimmyLujanG.png" alt="Jimmy Lujan" title="Jimmy Lujan" />
+        </div>
+    </div>
+
+    <div id="headerLeft">
+        <img id="LIPALogo" onclick="Home()" src="Website/W01.LIPALogo.png" alt="LI-PixelArt" title="LI-PixelArt" />
+        <p class="clicky" onclick="Home()">HOME</p>
+        <p class="clicky" onclick="Gallery()">GALLERY</p>
+        <p class="clicky" onclick="Projects()">PROJECTS</p>
+        <p class="clicky" onclick="About()">ABOUT</p>
+        <br>
+        <p id="lIdeas">Lujan Ideas | Created by Jimmy Lujan</p>
+    </div>
+
+    <div id="bubble">
+        <div class="logoSq" id="BTTF" onclick="return togglePix('li11')">
+            <img class="pixLogo" src="Logos/L011-BackToTheFuture.png" title="Back to the Future" />
+        </div>
+        <div class="gallSq" id="li11" style="display:none;">
+            <img class="pixImgs" src="Img0/P005.MartyMcFly.gif" title="Marty McFly" onclick="show(this.src, 'Img0/P005.MartyMcFly.gif');" />
+            <img class="pixImgs" src="Img0/P021-DocBrown.gif" title="Doc Brown" onclick="show(this.src, 'Img0/P021-DocBrown.gif');" />
+        </div>
+        
+        <div class="gallSpace"></div>
+        
+        <div class="logoSq" id="CN" onclick="return togglePix('li48')">
+            <img class="pixLogo" src="Logos/L048-CartoonNetwork.png"/>
+        </div>
+        <div class="gallSq" id="li48" style="display:none;">
+            <div class="subLogoSq" id="AT" onclick="return togglePix('li59')">
+                <img class="pixLogo" src="Logos/L059-AdventureTime.png">
+            </div>
+            <div class="subGallSq" id="li59" style="display:none;">
+                <img class="pixImgs" src="Img3/P334.FinnMertens.gif" title="Finn Mertens" onclick="show(this.src, 'Img3/P334.FinnMertens.gif');" />
+                <img class="pixImgs" src="Img3/P337.PrincessBubblegum.gif" title="Princess Bubblegum" onclick="show(this.src, 'Img3/P337.PrincessBubblegum.gif');" />
+                <img class="pixImgW" src="Projects/O040.WomanPainting.png" title="Adventure Time Woman Painting" onclick="show(this.src, 'Projects/O040.WomanPainting.png');" />
+                <img class="pixImgs" src="Projects/O041.TheEnchiridion.png" title="The Enchiridion" onclick="show(this.src, 'Projects/O041.TheEnchiridion.png');" />
+            </div>
+            
+            <div class="subLogoSq" id="B10" onclick="return togglePix('li26')">
+                <img class="pixLogo" src="Logos/L026-Ben10.png">
+            </div>
+            <div class="subGallSq" id="li26" style="display:none;">
+                <img class="pixImgs" src="Img0/P052.Ben10.gif" title="Ben Tennyson" onclick="showImage(this.src, 'Img0/P052.Ben10.gif');" />
+            </div>
+        </div>
+        
+        <div class="gallSpace"></div>
+        
+        <div class="logoSq">
+            <img class="pixLogo" src="Logos/L001-Disney.png"/>
+        </div>
+        
+        <div class="gallSpace"></div>
+        
+        <div class="logoSq">
+            <img class="pixLogo" src="Logos/L015-DC.png"/>
+        </div>
+    </div>
+
+    <script type="text/javascript" src='All.js'></script>
+</body>
+
+</html>

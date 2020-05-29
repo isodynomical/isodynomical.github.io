@@ -1,0 +1,143 @@
+<html>
+
+<head>
+    <title>LI-PixelArt</title>
+    <link type="text/css" rel='stylesheet' href='index.css' />
+    <link rel="shortcut icon" href="Website/W02-LIPAIcon.png">
+</head>
+
+<body>
+    <div id="header">
+        <div id="topHeadLeft">
+            <div id="bLink">
+                <a href="https://twitter.com/Isodynomical" target="_blank">
+                    <img class="socialButtons topLink Twi" src="Website/Icons/I008.TwitterIconDark.png" alt="Twitter" title="Tweet @ me" />
+                </a>
+                <a href="https://www.instagram.com/lipixelart/" target="_blank">
+                    <img class="socialButtons topLink Ins" src="Website/Icons/I009.InstagramIconDark.png" alt="Instagram" title="Check out my Instagram" />
+                </a>
+                <a href="http://lipixelart.tumblr.com/" target="_blank">
+                    <img class="socialButtons topLink Tum" src="Website/Icons/I010.TumblrIconDark.png" alt="Tumblr" title="Check out my Tumblr" />
+                </a>
+                <a href="https://www.facebook.com/lipixelart" target="_blank">
+                    <img class="socialButtons topLink Fac" src="Website/Icons/I011.FacebookIconDark.png" alt="Facebook" title="Check out my Facebook page" />
+                </a>
+                <a href="https://goo.gl/forms/5kE89Zf178ffxEjS2" target="_blank">
+                    <img class="socialButtons topLink Ema" src="Website/Icons/I012.EmailIconDark.png" alt="Email" title="Email Me" />
+                </a>
+            </div>
+            <div id="tLink">
+                <a href="https://twitter.com/Isodynomical" target="_blank">
+                    <img class="socialButtons botLink Twi" src="Website/Icons/I002.TwitterIcon.png" alt="Twitter" title="Tweet @ me" />
+                </a>
+                <a href="https://www.instagram.com/lipixelart/" target="_blank">
+                    <img class="socialButtons botLink Ins" src="Website/Icons/I006.InstagramIcon.png" alt="Instagram" title="Check out my Instagram" />
+                </a>
+                <a href="http://lipixelart.tumblr.com/" target="_blank">
+                    <img class="socialButtons botLink Tum" src="Website/Icons/I001.TumblrIcon.png" alt="Tumblr" title="Check out my Tumblr" />
+                </a>
+                <a href="https://www.facebook.com/lipixelart" target="_blank">
+                    <img class="socialButtons botLink Fac" src="Website/Icons/I004.FacebookIcon.png" alt="Facebook" title="Check out my Facebook page" />
+                </a>
+                <a href="https://goo.gl/forms/5kE89Zf178ffxEjS2" target="_blank">
+                    <img class="socialButtons botLink Ema" src="Website/Icons/I005.EmailIcon.png" alt="Email" title="Email Me" />
+                </a>
+            </div>
+        </div>
+        <div id="topHeadRight">
+            <img id="Jimmy" src="Website/W03-JimmyLujanG.png" alt="Jimmy Lujan" title="Jimmy Lujan" />
+        </div>
+    </div>
+
+    <div id="headerLeft">
+        <img id="LIPALogo" onclick="Home()" src="Website/W01.LIPALogo.png" alt="LI-PixelArt" title="LI-PixelArt" />
+        <p class="clicky" onclick="Home()">HOME</p>
+        <p class="clicky" onclick="Gallery()">GALLERY</p>
+        <p class="clicky" onclick="Projects()">PROJECTS</p>
+        <p class="clicky" onclick="About()">ABOUT</p>
+        <br>
+        <p id="lIdeas">Lujan Ideas | Created by Jimmy Lujan</p>
+    </div>
+
+    <div id="bubble">
+
+        <div id="intro">
+            <p>Hello!</p>
+            <p>My name is Jimmy Lujan.</p>
+            <p>I'm a Computer Science major at U.C. Santa Cruz who is planning on becoming a grade school math/computer science teacher.</p>
+            <p>This site is a display of my pixel art and serves as an archive for myself and others.</p>
+            <p id="output"></p>
+        </div>
+
+        <div id="proud">
+
+            <img class="squPix" src="Projects/O050.DLTrashCans.png" title="Disneyland Trash Cans" onclick="openM();curr(1)">
+
+            <img class="squPix" src="Projects/O040.WomanPainting.png" title="Adventure Time Woman Painting" onclick="openM();curr(2)">
+
+            <img class="squPix" src="Animations/A008.Lola.gif" title="Lola" onclick="openM();curr(3)">
+
+            <img class="squPix" src="Img3/P357.JollyHolidayMary.png" title="Jolly Holiday Mary Poppins" onclick="openM(); curr(4)">
+
+            <img class="squPix" src="Animations/A003.MickeysCarDriving.gif" title="Mickey's Car" onclick="openM(); curr(5)" />
+
+            <img class="squPix" src="Img2/P282.LandoYoung.gif" title="Lando Calrissian" onclick="openM(); curr(6)" />
+
+            <img class="squPix" src="Projects/O002.BTTFPoster.png" title="Back to the Future Poster" onclick="openM(); curr(7)" />
+
+            <img class="squPix" src="Projects/O055.Journal3.png" title="Journal 3" onclick="openM(); curr(8)" />
+
+            <img class="squPix" src="Img3/P313.Upgrade.gif" title="Upgrade" onclick="openM(); curr(9)" />
+
+            <img class="squPix" src="Projects/O010.UCSCSlug.png" title="UCSC Slug" onclick="openM(); curr(10)" />
+
+            <img class="squPix" src="Projects/O006.RaidersPoster.png" title="Raiders of the Lost Ark Poster" onclick="openM(); curr(11)" />
+
+        </div>
+
+        <div id="myModal" class="modal">
+            <!--<div id="leftChange" onclick="plusSlides(-1)">
+                </div>
+                <div id="rightChange" onclick="plusSlides(1)">
+                </div>-->
+
+            <span id="close" onclick="closeM()">x</span>
+
+            <div class="modalStuff">
+
+                <div class="capDiv">
+                    <p id="alt"></p>
+                </div>
+
+                <img class="galPic galStuff" src="Projects/O050.DLTrashCans.png" alt="Disneyland Trash Cans" onclick="closeM();">
+
+                <img class="galPic galStuff" src="Projects/O040.WomanPainting.png" alt="Adventure Time Woman Painting" onclick="closeM();">
+
+                <img class="galPic galStuff" src="Animations/A008.Lola.gif" alt="Lola" onclick="closeM();">
+
+                <img class="galPic galStuff" src="Img3/P357.JollyHolidayMary.png" alt="Jolly Holiday Mary Poppins" onclick="closeM();">
+
+                <img class="galPic galStuff" src="Animations/A003.MickeysCarDriving.gif" alt="Mickey's Car" onclick="closeM();">
+
+                <img class="galPic galStuff" src="Img2/P282.LandoYoung.gif" alt="Lando Calrissian" onclick="closeM();">
+
+                <img class="galPic galStuff" src="Projects/O002.BTTFPoster.png" alt="Back to the Future Poster" onclick="closeM();">
+
+                <img class="galPic galStuff" src="Projects/O055.Journal3.png" alt="Journal 3" onclick="closeM();">
+
+                <img class="galPic galStuff" src="Img3/P313.Upgrade.gif" alt="Upgrade" onclick="closeM();">
+
+                <img class="galPic galStuff" src="Projects/O010.UCSCSlug.png" alt="UCSC Slug" onclick="closeM();">
+
+                <img class="galPic galStuff" src="Projects/O006.RaidersPoster.png" alt="Raiders of the Lost Ark Poster" onclick="closeM();">
+
+                <a class="prev" onclick="plusSlides(-1)"> &#60; </a>
+                <a class="next" onclick="plusSlides(1)"> > </a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src='All.js'></script>
+</body>
+
+</html>
